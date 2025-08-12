@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'pt' Physical Memory: 16247 MB
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'pt' Physical Memory: 8116 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ D:/Users/20221170150049/Documents/GitHub/TELAS-DO-JOGO/telas do jogo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50119
+51702
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,18 +59,18 @@ D:/Users/20221170150049/Documents/GitHub/TELAS-DO-JOGO/telas do jogo
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13048]  Target information:
+Player connection [12212]  Target information:
 
-Player connection [13048]  * "[IP] 192.168.147.1 [Port] 0 [Flags] 2 [Guid] 839915802 [EditorId] 839915802 [Version] 1048832 [Id] WindowsEditor(7,CM392272) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12212]  * "[IP] 10.57.10.11 [Port] 0 [Flags] 2 [Guid] 3839511250 [EditorId] 3839511250 [Version] 1048832 [Id] WindowsEditor(7,CM333228) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13048]  * "[IP] 192.168.72.1 [Port] 0 [Flags] 2 [Guid] 839915802 [EditorId] 839915802 [Version] 1048832 [Id] WindowsEditor(7,CM392272) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12212]  * "[IP] 192.168.147.1 [Port] 0 [Flags] 2 [Guid] 3839511250 [EditorId] 3839511250 [Version] 1048832 [Id] WindowsEditor(7,CM333228) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13048]  * "[IP] 10.57.1.39 [Port] 0 [Flags] 2 [Guid] 839915802 [EditorId] 839915802 [Version] 1048832 [Id] WindowsEditor(7,CM392272) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12212]  * "[IP] 192.168.72.1 [Port] 0 [Flags] 2 [Guid] 3839511250 [EditorId] 3839511250 [Version] 1048832 [Id] WindowsEditor(7,CM333228) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13048]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 839915802 [EditorId] 839915802 [Version] 1048832 [Id] WindowsEditor(7,CM392272) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12212]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3839511250 [EditorId] 3839511250 [Version] 1048832 [Id] WindowsEditor(7,CM333228) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13048] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13048] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12212] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12212] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,59 +82,60 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 69.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.42f1 (feb9a7235030)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.42f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Users/20221170150049/Documents/GitHub/TELAS-DO-JOGO/telas do jogo/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 630 (ID=0x5912)
-    Vendor:   Intel
-    VRAM:     8123 MB
-    Driver:   27.20.100.9664
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon(TM) HD 8490 (ID=0x6771)
+    Vendor:   ATI
+    VRAM:     1008 MB
+    Driver:   15.201.2401.1001
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009156 seconds.
-- Loaded All Assemblies, in  0.990 seconds
+Registered in 0.005648 seconds.
+- Loaded All Assemblies, in  0.866 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.953 seconds
-Domain Reload Profiling: 1938ms
-	BeginReloadAssembly (247ms)
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 1431ms
+	BeginReloadAssembly (446ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (97ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (125ms)
-	LoadAllAssembliesAndSetupDomain (485ms)
-		LoadAssemblies (237ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (439ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (479ms)
-			TypeCache.Refresh (476ms)
-				TypeCache.ScanAssembly (450ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (239ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (954ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (568ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (827ms)
+		SetupLoadedEditorAssemblies (512ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (58ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (178ms)
-			ProcessInitializeOnLoadAttributes (458ms)
-			ProcessInitializeOnLoadMethodAttributes (124ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,314 +144,1321 @@ Domain Reload Profiling: 1938ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.027 seconds
-Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+- Loaded All Assemblies, in  3.084 seconds
+Refreshing native plugins compatible for Editor in 17.42 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.026 seconds
-Domain Reload Profiling: 4039ms
-	BeginReloadAssembly (371ms)
+- Finished resetting the current domain, in  1.969 seconds
+Domain Reload Profiling: 4993ms
+	BeginReloadAssembly (288ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (1429ms)
-		LoadAssemblies (946ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (2605ms)
+		LoadAssemblies (2298ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (690ms)
-			TypeCache.Refresh (454ms)
-				TypeCache.ScanAssembly (421ms)
-			BuildScriptInfoCaches (185ms)
-			ResolveRequiredComponents (45ms)
-	FinalizeReload (2027ms)
+		AnalyzeDomain (479ms)
+			TypeCache.Refresh (355ms)
+				TypeCache.ScanAssembly (317ms)
+			BuildScriptInfoCaches (95ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1971ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1649ms)
+		SetupLoadedEditorAssemblies (1431ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (326ms)
-			ProcessInitializeOnLoadAttributes (1048ms)
-			ProcessInitializeOnLoadMethodAttributes (252ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (195ms)
+			ProcessInitializeOnLoadAttributes (614ms)
+			ProcessInitializeOnLoadMethodAttributes (595ms)
+			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 8.24 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (27ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.56 seconds
+Refreshing native plugins compatible for Editor in 35.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6587 unused Assets / (3.1 MB). Loaded Objects now: 7299.
-Memory consumption went from 173.9 MB to 170.8 MB.
-Total: 191.174500 ms (FindLiveObjects: 2.160400 ms CreateObjectMapping: 4.076200 ms MarkObjects: 145.214200 ms  DeleteObjects: 39.720600 ms)
+Unloading 6588 unused Assets / (3.2 MB). Loaded Objects now: 7300.
+Memory consumption went from 174.0 MB to 170.8 MB.
+Total: 63.670700 ms (FindLiveObjects: 43.274800 ms CreateObjectMapping: 2.840000 ms MarkObjects: 10.004600 ms  DeleteObjects: 7.547900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1114.251228 seconds.
-  path: Assets/sprites/personagm.jpg
-  artifactKey: Guid(95f1ad11e76a8dc4da0d96b6c56b96b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/personagm.jpg using Guid(95f1ad11e76a8dc4da0d96b6c56b96b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3747dcafc106363f213cf1906c3a0f9') in 0.2470693 seconds
+  Time since last request: 1005.258240 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65636432c56742a06922c04c04ec00a3') in 0.1427296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '980c9fb80c82845b153ecd392cc4695d') in 0.0022752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.957939 seconds.
+  path: Assets/Scenes/MEBU.unity
+  artifactKey: Guid(3321bc3268e226d41aad1db2e831e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MEBU.unity using Guid(3321bc3268e226d41aad1db2e831e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8ea2e0797c3abcf352a8d5a0cfdb48e') in 0.0011328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.796 seconds
+Refreshing native plugins compatible for Editor in 40.84 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.284 seconds
+Domain Reload Profiling: 18161ms
+	BeginReloadAssembly (3099ms)
+		ExecutionOrderSort (28ms)
+		DisableScriptedObjects (548ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (1248ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (790ms)
+	LoadAllAssembliesAndSetupDomain (11896ms)
+		LoadAssemblies (10193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2184ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (1914ms)
+			ResolveRequiredComponents (65ms)
+	FinalizeReload (2298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1873ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (345ms)
+			ProcessInitializeOnLoadAttributes (1052ms)
+			ProcessInitializeOnLoadMethodAttributes (412ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (43ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 37.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6586 unused Assets / (4.0 MB). Loaded Objects now: 7306.
+Memory consumption went from 141.6 MB to 137.5 MB.
+Total: 25.756800 ms (FindLiveObjects: 2.816100 ms CreateObjectMapping: 1.626700 ms MarkObjects: 16.258500 ms  DeleteObjects: 5.051400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.361 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.126 seconds
+Domain Reload Profiling: 2485ms
+	BeginReloadAssembly (357ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (881ms)
+		LoadAssemblies (662ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (385ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (346ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1127ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (842ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6586 unused Assets / (4.9 MB). Loaded Objects now: 7308.
+Memory consumption went from 141.6 MB to 136.7 MB.
+Total: 16.811900 ms (FindLiveObjects: 1.817700 ms CreateObjectMapping: 1.550800 ms MarkObjects: 8.432600 ms  DeleteObjects: 5.009100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.426 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.190 seconds
+Domain Reload Profiling: 2613ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (1011ms)
+		LoadAssemblies (862ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (257ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1190ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (877ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6586 unused Assets / (4.1 MB). Loaded Objects now: 7310.
+Memory consumption went from 141.6 MB to 137.5 MB.
+Total: 15.823300 ms (FindLiveObjects: 1.742100 ms CreateObjectMapping: 2.298500 ms MarkObjects: 8.582600 ms  DeleteObjects: 3.198700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.078 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.119 seconds
+Domain Reload Profiling: 2194ms
+	BeginReloadAssembly (289ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (676ms)
+		LoadAssemblies (503ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (309ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (271ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1119ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (837ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (523ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6586 unused Assets / (4.2 MB). Loaded Objects now: 7312.
+Memory consumption went from 141.6 MB to 137.4 MB.
+Total: 16.525000 ms (FindLiveObjects: 1.537900 ms CreateObjectMapping: 1.590200 ms MarkObjects: 8.868300 ms  DeleteObjects: 4.526300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.073 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.115 seconds
+Domain Reload Profiling: 2186ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (669ms)
+		LoadAssemblies (505ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (273ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1115ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (828ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6586 unused Assets / (4.4 MB). Loaded Objects now: 7314.
+Memory consumption went from 141.5 MB to 137.1 MB.
+Total: 18.098600 ms (FindLiveObjects: 1.445200 ms CreateObjectMapping: 1.816300 ms MarkObjects: 10.340800 ms  DeleteObjects: 4.494800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.052 seconds
+Refreshing native plugins compatible for Editor in 2.80 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.136 seconds
+Domain Reload Profiling: 2187ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (670ms)
+		LoadAssemblies (502ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (271ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1137ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (829ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6586 unused Assets / (4.2 MB). Loaded Objects now: 7316.
+Memory consumption went from 141.6 MB to 137.3 MB.
+Total: 17.485500 ms (FindLiveObjects: 1.517900 ms CreateObjectMapping: 1.611300 ms MarkObjects: 10.454700 ms  DeleteObjects: 3.899500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1132.252009 seconds.
+  path: Assets/Scripide/Controle.cs
+  artifactKey: Guid(27c417bc081c5d14b95bc3e2d8abe3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripide/Controle.cs using Guid(27c417bc081c5d14b95bc3e2d8abe3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '768174bb1cc9e32b67f95a24b6172774') in 0.0107987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.220 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.979 seconds
+Domain Reload Profiling: 2197ms
+	BeginReloadAssembly (331ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (751ms)
+		LoadAssemblies (578ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (342ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (299ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (980ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (725ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6586 unused Assets / (3.9 MB). Loaded Objects now: 7318.
+Memory consumption went from 141.6 MB to 137.7 MB.
+Total: 13.067400 ms (FindLiveObjects: 1.662400 ms CreateObjectMapping: 1.714800 ms MarkObjects: 6.847400 ms  DeleteObjects: 2.840100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.826 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.362 seconds
+Domain Reload Profiling: 3187ms
+	BeginReloadAssembly (291ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (1422ms)
+		LoadAssemblies (894ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (660ms)
+			TypeCache.Refresh (64ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (545ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1363ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (242ms)
+			ProcessInitializeOnLoadAttributes (549ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (9ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6586 unused Assets / (3.4 MB). Loaded Objects now: 7320.
+Memory consumption went from 141.6 MB to 138.2 MB.
+Total: 13.452600 ms (FindLiveObjects: 1.232200 ms CreateObjectMapping: 1.597900 ms MarkObjects: 7.368900 ms  DeleteObjects: 3.248500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.130 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.181 seconds
+Domain Reload Profiling: 2309ms
+	BeginReloadAssembly (305ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (714ms)
+		LoadAssemblies (534ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (291ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1182ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (827ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (502ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6586 unused Assets / (3.7 MB). Loaded Objects now: 7322.
+Memory consumption went from 141.6 MB to 137.9 MB.
+Total: 16.202400 ms (FindLiveObjects: 1.353800 ms CreateObjectMapping: 0.978700 ms MarkObjects: 9.993500 ms  DeleteObjects: 3.874700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 684.901975 seconds.
+  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49ff0cff223c74d4b86a7b8ec2223ec0') in 0.2561057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185669 seconds.
+  path: Assets/sprites/6dc113dcdd2f8ccf3fa6cd864570ffdf.jpg
+  artifactKey: Guid(057a6b501c8d1e24cbebfe8f3a820133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/6dc113dcdd2f8ccf3fa6cd864570ffdf.jpg using Guid(057a6b501c8d1e24cbebfe8f3a820133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2611cb8293e18dfb32d2421e1c339240') in 0.1164744 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/logo.jpg
+  artifactKey: Guid(618102945a52c9c448f8134e15607a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/logo.jpg using Guid(618102945a52c9c448f8134e15607a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61e4e14fec46849a042ad6e3701a8fd7') in 0.0497356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
   path: Assets/sprites/bd46b488c1015b74040456143c40ad54.jpg
   artifactKey: Guid(2c525469b3dc25641bcd181bd6ff7f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/bd46b488c1015b74040456143c40ad54.jpg using Guid(2c525469b3dc25641bcd181bd6ff7f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e1bc11b774d07060b68b881ce0102a7') in 0.0381693 seconds
+Start importing Assets/sprites/bd46b488c1015b74040456143c40ad54.jpg using Guid(2c525469b3dc25641bcd181bd6ff7f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71ab19b85f0224d844424a6877c2a005') in 0.072557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/93f6489b2fe43d466ab8ee1e8d371afc.jpg
+  artifactKey: Guid(6fbe059d08b932c4dad5a4f3472f61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/93f6489b2fe43d466ab8ee1e8d371afc.jpg using Guid(6fbe059d08b932c4dad5a4f3472f61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '470c02867d3c11bad0cb1cc84e5c3289') in 0.0523694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.147133 seconds.
+  path: Assets/sprites/20240707dragon9SlicesA.png
+  artifactKey: Guid(b6fc3c7dc496555419b223b3dc52a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/20240707dragon9SlicesA.png using Guid(b6fc3c7dc496555419b223b3dc52a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '733f8baaf964ee7c73ec56f989343bb2') in 0.0614191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.833117 seconds.
+  path: Assets/sprites/20240707dragonHeaderB.png
+  artifactKey: Guid(b6ac20e64f55dfc4c8c5d675424b45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/20240707dragonHeaderB.png using Guid(b6ac20e64f55dfc4c8c5d675424b45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dcb224df696b7f2619878ea1c09b448') in 0.0493381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.764087 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0
+  artifactKey: Guid(fbe8beff28fa9034283b2b7fc398ef53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0 using Guid(fbe8beff28fa9034283b2b7fc398ef53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab1b35fbb519fe39dc654f5aa6d2d5bf') in 0.0009161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.802187 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesA.png
+  artifactKey: Guid(eca4935af7a5e8346a55765b93f13fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesA.png using Guid(eca4935af7a5e8346a55765b93f13fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aba7950cd98a058f2dbb9b8108d85d9e') in 0.0124278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240709dragonButtonB-Sheet.png
+  artifactKey: Guid(1cd2b9a3f8d96d44fabccd844c0f9176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240709dragonButtonB-Sheet.png using Guid(1cd2b9a3f8d96d44fabccd844c0f9176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b20989d88feca57861c37398d46facc6') in 0.0406477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonBootsFrame.png
+  artifactKey: Guid(16a9744a7de490a488de1b6d28a433fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonBootsFrame.png using Guid(16a9744a7de490a488de1b6d28a433fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a7e5c633993b0675f3bcc632e479e54') in 0.0163912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonCloseButton-Sheet.png
+  artifactKey: Guid(09a5549e724fa874292025ed3ddfdbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonCloseButton-Sheet.png using Guid(09a5549e724fa874292025ed3ddfdbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4220705e938e006c3e067a22b545aee2') in 0.029928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonMoreButton-Sheet.png
+  artifactKey: Guid(da9ed9ad6e32b8644a759943c5adbe4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonMoreButton-Sheet.png using Guid(da9ed9ad6e32b8644a759943c5adbe4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f64995cf71d8481cb1bd99c154957e02') in 0.0294336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonChestFrame.png
+  artifactKey: Guid(09a3fe82d5e51344284c94e24f5c4f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonChestFrame.png using Guid(09a3fe82d5e51344284c94e24f5c4f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc9ef1dd7bea6aa8d373e66adc3f6c4c') in 0.0225036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonCursorTarget-Sheet.png
+  artifactKey: Guid(b813e732b5a7d5b489872292a56d1ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonCursorTarget-Sheet.png using Guid(b813e732b5a7d5b489872292a56d1ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0270b2922ca8ea0e9b01b6342e63e111') in 0.028271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabC-Sheet.png
+  artifactKey: Guid(95343f67b903e1f41b405f4d1858930e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabC-Sheet.png using Guid(95343f67b903e1f41b405f4d1858930e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f38e1a18b8b7e5111d23027ea0179f9') in 0.0190027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240709dragonBarC.png
+  artifactKey: Guid(a9f5a98dab0fdcc4a90c9392e78a06b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240709dragonBarC.png using Guid(a9f5a98dab0fdcc4a90c9392e78a06b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2954000a5ec44964525eb9723b134d50') in 0.0294789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240709dragonButtonA-Sheet.png
+  artifactKey: Guid(11650bf86972ddf478ad5380cec31f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240709dragonButtonA-Sheet.png using Guid(11650bf86972ddf478ad5380cec31f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '941bde9a9a7501fcae0a83830023c750') in 0.0301378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonVerticalCursorA-Sheet.png
+  artifactKey: Guid(453a6f10e2a8d0244b6ca14d8e29c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonVerticalCursorA-Sheet.png using Guid(453a6f10e2a8d0244b6ca14d8e29c4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa341152e0f31782ff4f4ddbfe60ac23') in 0.0343616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonHorizontalCursorA-Sheet.png
+  artifactKey: Guid(f9bb205f456f5b042b541533652ef3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonHorizontalCursorA-Sheet.png using Guid(f9bb205f456f5b042b541533652ef3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f035827db9f4607047e59bef0c6fe49') in 0.0227062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonEmptyFrame.png
+  artifactKey: Guid(2b819228c32dbc7438a13dec41e658bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonEmptyFrame.png using Guid(2b819228c32dbc7438a13dec41e658bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b97f631d601d21d43488778d7f681a2') in 0.0249291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonRingFrame.png
+  artifactKey: Guid(1164f3c8ae2117c48bbcb17e718eb10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonRingFrame.png using Guid(1164f3c8ae2117c48bbcb17e718eb10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b24cf583e3d0759ef80dbf995e7f411') in 0.0130759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonHeaderB.png
+  artifactKey: Guid(a1f81beaa8884c0408eaca2937b2b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonHeaderB.png using Guid(a1f81beaa8884c0408eaca2937b2b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f36ca19f938db9b1e55e251d6e489e3e') in 0.0273151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonWeaponFrame.png
+  artifactKey: Guid(f6ce1dbe885ce9445a1e06a60b1a4ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonWeaponFrame.png using Guid(f6ce1dbe885ce9445a1e06a60b1a4ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cff87bdd11685278954204b8214bd44d') in 0.0121005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonLessButton-Sheet.png
+  artifactKey: Guid(cbec9630b3070834087c6059c7788299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonLessButton-Sheet.png using Guid(cbec9630b3070834087c6059c7788299) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b95440118231e2d5264cbbc1f626c94b') in 0.0347062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonLeftArrowButton-Sheet.png
+  artifactKey: Guid(ac79bdb11e60ef14dbd53ad4c4eb296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonLeftArrowButton-Sheet.png using Guid(ac79bdb11e60ef14dbd53ad4c4eb296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57a1997656fafa0f3f8b6c5394bee9b9') in 0.030816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabB-Sheet.png
+  artifactKey: Guid(b0cc3541b6d346543b370052c4ffe46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabB-Sheet.png using Guid(b0cc3541b6d346543b370052c4ffe46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d5afa43f2f082bd52bd632ba293c074') in 0.0368848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonHeadFrame.png
+  artifactKey: Guid(b5af449481228a04ea682a5879f079ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonHeadFrame.png using Guid(b5af449481228a04ea682a5879f079ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38f376cb177d985e17f4edc6435e2cb2') in 0.0173382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesB.png
+  artifactKey: Guid(53d7f695b27e0cb4aba9eeca63dd089c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesB.png using Guid(53d7f695b27e0cb4aba9eeca63dd089c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb9e82d2738bdeabf391ecb890f2dec8') in 0.0216657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabE-Sheet.png
+  artifactKey: Guid(dad060fbd757bfe49af3071d69a53012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabE-Sheet.png using Guid(dad060fbd757bfe49af3071d69a53012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90be38efbd5e3de72a96c1c9e1b8291e') in 0.0305661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonOptionsButton-Sheet.png
+  artifactKey: Guid(ad4ed3d73d5690f4181f074b504bec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonOptionsButton-Sheet.png using Guid(ad4ed3d73d5690f4181f074b504bec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be5aa983f2c42b859996d9ae9720dc4b') in 0.0206463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.962697 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240709dragonBarC.png
+  artifactKey: Guid(a9f5a98dab0fdcc4a90c9392e78a06b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240709dragonBarC.png using Guid(a9f5a98dab0fdcc4a90c9392e78a06b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fa9ea6114ebcac6b78bd24a24e2e437') in 0.0181135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesA.png
+  artifactKey: Guid(eca4935af7a5e8346a55765b93f13fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesA.png using Guid(eca4935af7a5e8346a55765b93f13fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a20aac8e8da522aef1ab98084b41b0e7') in 0.0238981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonMapFrame.png
+  artifactKey: Guid(ad9d8e9d9cd8a70439c22927cd56f43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonMapFrame.png using Guid(ad9d8e9d9cd8a70439c22927cd56f43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9345fdabe2f6228c264c9427a317cdf') in 0.0159252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonPantsFrame.png
+  artifactKey: Guid(62e412a37f798eb429eca909e2e12d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonPantsFrame.png using Guid(62e412a37f798eb429eca909e2e12d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e113a6b9dfaaf54aac5ecc1b569f952') in 0.0190786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonDownArrowButton-Sheet.png
+  artifactKey: Guid(f2ed82e79213adc4fa2999e378f2fc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonDownArrowButton-Sheet.png using Guid(f2ed82e79213adc4fa2999e378f2fc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b502850820f26349cc29630b958fc48') in 0.0441925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabA-Sheet.png
+  artifactKey: Guid(81489f16af56559418f66df1f3330339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabA-Sheet.png using Guid(81489f16af56559418f66df1f3330339) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daf80b6d0ae8fcb1c66a66b474ef9593') in 0.033829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesC.png
+  artifactKey: Guid(5b10f69bc7a12944c9f2c0ae25256c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesC.png using Guid(5b10f69bc7a12944c9f2c0ae25256c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b48bd2c65ec7665584c33252739d9a4') in 0.0198463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonPortraitFrame.png
+  artifactKey: Guid(bdadd16ce41e76344b9d40b0716e6672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonPortraitFrame.png using Guid(bdadd16ce41e76344b9d40b0716e6672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7799d5da3cfb61a7fea2c52db61683c2') in 0.0261253 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/sprites/93f6489b2fe43d466ab8ee1e8d371afc.jpg
-  artifactKey: Guid(6fbe059d08b932c4dad5a4f3472f61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/93f6489b2fe43d466ab8ee1e8d371afc.jpg using Guid(6fbe059d08b932c4dad5a4f3472f61e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16e07cb383b5ab4f741e49de7c2fbc9a') in 0.0161551 seconds
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabC-Sheet.png
+  artifactKey: Guid(95343f67b903e1f41b405f4d1858930e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabC-Sheet.png using Guid(95343f67b903e1f41b405f4d1858930e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aab98c8023e7c8cbc020f4e300982835') in 0.0247924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonMouseCursor-Sheet.png
+  artifactKey: Guid(c4e2fd5d9c2861b4190d88cef5368a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonMouseCursor-Sheet.png using Guid(c4e2fd5d9c2861b4190d88cef5368a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd38d97b4c3dff4f9c5957f1a201496ad') in 0.0336235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonRightArrowButton-Sheet.png
+  artifactKey: Guid(276b79a3101cda54e839abd64d869f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonRightArrowButton-Sheet.png using Guid(276b79a3101cda54e839abd64d869f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1fedb3de25ef8b51feba27d2c1e53f9') in 0.0335838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesE.png
+  artifactKey: Guid(d9cc5e999e2ac38489668e8e33b194c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesE.png using Guid(d9cc5e999e2ac38489668e8e33b194c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ab1364ea4e00f02c9da05240fcc9ba1') in 0.0229357 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.741068 seconds.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonHorizontalCursorA-Sheet.png
+  artifactKey: Guid(f9bb205f456f5b042b541533652ef3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonHorizontalCursorA-Sheet.png using Guid(f9bb205f456f5b042b541533652ef3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb73f38d7e4082d6308d9041a34aaa95') in 0.0503863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonRingFrame.png
+  artifactKey: Guid(1164f3c8ae2117c48bbcb17e718eb10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonRingFrame.png using Guid(1164f3c8ae2117c48bbcb17e718eb10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04edd86cb2c78971f67addc11e647b95') in 0.0093154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonHeaderB.png
+  artifactKey: Guid(a1f81beaa8884c0408eaca2937b2b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonHeaderB.png using Guid(a1f81beaa8884c0408eaca2937b2b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7bc0a4ba6713277b2053b8b8c8c4f0e') in 0.0139109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240709dragonBarB.png
+  artifactKey: Guid(c09c38c4723d5dd4e822cc5f4c63fa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240709dragonBarB.png using Guid(c09c38c4723d5dd4e822cc5f4c63fa06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f57ca2d3a5b5c6916177899359a2db8') in 0.0142983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonVerticalCursorB-Sheet.png
+  artifactKey: Guid(03ebf85242ffb6a4cbb813544bbb1048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240711dragonVerticalCursorB-Sheet.png using Guid(03ebf85242ffb6a4cbb813544bbb1048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '386200aa9b8ef41bd681db4197a304aa') in 0.0691272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonLeftArrowButton-Sheet.png
+  artifactKey: Guid(ac79bdb11e60ef14dbd53ad4c4eb296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonLeftArrowButton-Sheet.png using Guid(ac79bdb11e60ef14dbd53ad4c4eb296c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f97fe8eef140f4b249065bec8b02b5b') in 0.0201184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabB-Sheet.png
+  artifactKey: Guid(b0cc3541b6d346543b370052c4ffe46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabB-Sheet.png using Guid(b0cc3541b6d346543b370052c4ffe46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa8da408c29ec8802353d3a590405267') in 0.0402258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonHeadFrame.png
+  artifactKey: Guid(b5af449481228a04ea682a5879f079ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonHeadFrame.png using Guid(b5af449481228a04ea682a5879f079ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27be76b61afa0644c45a51ebf2593fbd') in 0.0169499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesB.png
+  artifactKey: Guid(53d7f695b27e0cb4aba9eeca63dd089c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesB.png using Guid(53d7f695b27e0cb4aba9eeca63dd089c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fb43a7a6f91bf267aef09f89ebd1661') in 0.0130571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabE-Sheet.png
+  artifactKey: Guid(dad060fbd757bfe49af3071d69a53012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonTabE-Sheet.png using Guid(dad060fbd757bfe49af3071d69a53012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5273bc902d1e90897c23210083864aba') in 0.0177762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonOptionsButton-Sheet.png
+  artifactKey: Guid(ad4ed3d73d5690f4181f074b504bec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonOptionsButton-Sheet.png using Guid(ad4ed3d73d5690f4181f074b504bec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4358f6ac4a4f75ee16aada9f91308bdb') in 0.0202019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonBootsFrame.png
+  artifactKey: Guid(16a9744a7de490a488de1b6d28a433fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240713dragonBootsFrame.png using Guid(16a9744a7de490a488de1b6d28a433fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20f7835d9bb82ff65c30217e3007238b') in 0.0076848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 318.228023 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesA.png
+  artifactKey: Guid(eca4935af7a5e8346a55765b93f13fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesA.png using Guid(eca4935af7a5e8346a55765b93f13fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd43198bfdd6183727313b136a70d7910') in 0.022765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.660535 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonHeaderB 1.png
+  artifactKey: Guid(b6ac20e64f55dfc4c8c5d675424b45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragonHeaderB 1.png using Guid(b6ac20e64f55dfc4c8c5d675424b45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ac78ba2cfeb4ab93d0e09838f8af39f') in 0.0212007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.363403 seconds.
+  path: Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesA 1.png
+  artifactKey: Guid(b6fc3c7dc496555419b223b3dc52a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tinyRPG_dragonRegaliaGUI_v1_0/20240707dragon9SlicesA 1.png using Guid(b6fc3c7dc496555419b223b3dc52a48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38be491765846d7a211f0efa9a2ac39b') in 0.0139029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.306762 seconds.
+  path: Assets/Scenes/JOGO.unity
+  artifactKey: Guid(6416c6c65d1306a4e8fa0ac2d001c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JOGO.unity using Guid(6416c6c65d1306a4e8fa0ac2d001c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d69ee641ee92416502078f223adaf43') in 0.0010956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.295814 seconds.
   path: Assets/Scenes/MEBU.unity
   artifactKey: Guid(3321bc3268e226d41aad1db2e831e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MEBU.unity using Guid(3321bc3268e226d41aad1db2e831e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5532892c3ae281b2f709e91b9b4f9cf') in 0.0006793 seconds
+Start importing Assets/Scenes/MEBU.unity using Guid(3321bc3268e226d41aad1db2e831e66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3357c790b76ae4b9365c2d4a780a97ab') in 0.0007094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.485396 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b755d7573ef0773135e58492b30b48d6') in 0.0041956 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6577 unused Assets / (4.1 MB). Loaded Objects now: 7450.
+Memory consumption went from 147.5 MB to 143.4 MB.
+Total: 418.213700 ms (FindLiveObjects: 2.923400 ms CreateObjectMapping: 1.590100 ms MarkObjects: 409.132300 ms  DeleteObjects: 4.566500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.156 seconds
-Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+- Loaded All Assemblies, in  5.846 seconds
+Refreshing native plugins compatible for Editor in 3.94 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.958 seconds
-Domain Reload Profiling: 3108ms
-	BeginReloadAssembly (324ms)
+- Finished resetting the current domain, in  2.347 seconds
+Domain Reload Profiling: 8190ms
+	BeginReloadAssembly (1229ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
+		DisableScriptedObjects (219ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (708ms)
-		LoadAssemblies (552ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (388ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (227ms)
+	LoadAllAssembliesAndSetupDomain (4283ms)
+		LoadAssemblies (3723ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (323ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (293ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1959ms)
+		AnalyzeDomain (965ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (684ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2350ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1529ms)
+		SetupLoadedEditorAssemblies (1747ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (244ms)
-			ProcessInitializeOnLoadAttributes (1044ms)
-			ProcessInitializeOnLoadMethodAttributes (217ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (469ms)
+			ProcessInitializeOnLoadAttributes (1089ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6587 unused Assets / (4.1 MB). Loaded Objects now: 7451.
+Memory consumption went from 146.4 MB to 142.3 MB.
+Total: 49.557200 ms (FindLiveObjects: 3.739700 ms CreateObjectMapping: 2.178700 ms MarkObjects: 36.288800 ms  DeleteObjects: 7.343800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6576 unused Assets / (4.3 MB). Loaded Objects now: 7451.
+Memory consumption went from 146.5 MB to 142.2 MB.
+Total: 14.894000 ms (FindLiveObjects: 1.301300 ms CreateObjectMapping: 1.573400 ms MarkObjects: 7.381000 ms  DeleteObjects: 4.636400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6577 unused Assets / (4.6 MB). Loaded Objects now: 7452.
+Memory consumption went from 146.5 MB to 141.9 MB.
+Total: 21.590700 ms (FindLiveObjects: 1.567400 ms CreateObjectMapping: 1.484400 ms MarkObjects: 11.575500 ms  DeleteObjects: 6.961700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (4.5 MB). Loaded Objects now: 7453.
+Memory consumption went from 146.5 MB to 142.0 MB.
+Total: 18.941300 ms (FindLiveObjects: 1.074100 ms CreateObjectMapping: 1.586600 ms MarkObjects: 10.190600 ms  DeleteObjects: 6.088300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 522.299716 seconds.
+  path: Assets/Scripide/Jogador.cs
+  artifactKey: Guid(d1a839ab1f9dc8f4ba6b0f7a9dfb328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripide/Jogador.cs using Guid(d1a839ab1f9dc8f4ba6b0f7a9dfb328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0f6371ee6b49bb2957832877c3b306d') in 0.0170588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (4.1 MB). Loaded Objects now: 7453.
+Memory consumption went from 146.5 MB to 142.4 MB.
+Total: 24.312900 ms (FindLiveObjects: 2.389800 ms CreateObjectMapping: 2.202000 ms MarkObjects: 14.821900 ms  DeleteObjects: 4.897100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (4.3 MB). Loaded Objects now: 7453.
+Memory consumption went from 146.5 MB to 142.3 MB.
+Total: 15.663700 ms (FindLiveObjects: 1.080200 ms CreateObjectMapping: 1.581300 ms MarkObjects: 9.058900 ms  DeleteObjects: 3.941300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 716.458282 seconds.
+  path: Assets/Scripide/Jogador.cs
+  artifactKey: Guid(d1a839ab1f9dc8f4ba6b0f7a9dfb328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripide/Jogador.cs using Guid(d1a839ab1f9dc8f4ba6b0f7a9dfb328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbadc82d0563c8381e658d074e518bf1') in 0.0041421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (4.0 MB). Loaded Objects now: 7453.
+Memory consumption went from 146.5 MB to 142.5 MB.
+Total: 18.775600 ms (FindLiveObjects: 1.524100 ms CreateObjectMapping: 1.727900 ms MarkObjects: 10.922200 ms  DeleteObjects: 4.599600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (6.0 MB). Loaded Objects now: 7453.
+Memory consumption went from 146.5 MB to 140.5 MB.
+Total: 64.776200 ms (FindLiveObjects: 1.695300 ms CreateObjectMapping: 1.652800 ms MarkObjects: 47.889300 ms  DeleteObjects: 13.536400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (3.4 MB). Loaded Objects now: 7453.
+Memory consumption went from 146.5 MB to 143.2 MB.
+Total: 27.305900 ms (FindLiveObjects: 1.515700 ms CreateObjectMapping: 1.879900 ms MarkObjects: 18.008200 ms  DeleteObjects: 5.899300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.509 seconds
+Refreshing native plugins compatible for Editor in 117.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.201 seconds
+Domain Reload Profiling: 6716ms
+	BeginReloadAssembly (2196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (426ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (948ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (3158ms)
+		LoadAssemblies (2696ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (890ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (13ms)
+			BuildScriptInfoCaches (501ms)
+			ResolveRequiredComponents (73ms)
+	FinalizeReload (1201ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (848ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (528ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (39ms)
-Refreshing native plugins compatible for Editor in 5.11 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6585 unused Assets / (4.6 MB). Loaded Objects now: 7314.
-Memory consumption went from 146.1 MB to 141.5 MB.
-Total: 26.196700 ms (FindLiveObjects: 2.243000 ms CreateObjectMapping: 3.180500 ms MarkObjects: 14.394200 ms  DeleteObjects: 6.376500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1694.390134 seconds.
-  path: Assets/Scripide/criar.cena.cs
-  artifactKey: Guid(1940afd7a9170c84a95822929dc37341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripide/criar.cena.cs using Guid(1940afd7a9170c84a95822929dc37341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93586f09dca5681b3328d5fdcd7bf977') in 0.0044602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.451481 seconds.
-  path: Assets/Scripide
-  artifactKey: Guid(03b732750f0c7504ca89d18fdaea7bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripide using Guid(03b732750f0c7504ca89d18fdaea7bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4518dd0c8105282bfdce361decb9d89f') in 0.0011017 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.23 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6575 unused Assets / (4.2 MB). Loaded Objects now: 7315.
-Memory consumption went from 146.3 MB to 142.1 MB.
-Total: 15.423900 ms (FindLiveObjects: 0.946000 ms CreateObjectMapping: 1.457700 ms MarkObjects: 10.239400 ms  DeleteObjects: 2.779600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 23.959038 seconds.
-  path: Assets/Scripide/Controle.cs
-  artifactKey: Guid(27c417bc081c5d14b95bc3e2d8abe3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripide/Controle.cs using Guid(27c417bc081c5d14b95bc3e2d8abe3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28579485c422a9c012e6f5aa10fbd6af') in 0.0025153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.079 seconds
-Refreshing native plugins compatible for Editor in 2.55 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.439 seconds
-Domain Reload Profiling: 2509ms
-	BeginReloadAssembly (273ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (688ms)
-		LoadAssemblies (499ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (323ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (288ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1439ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1011ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (270ms)
-			ProcessInitializeOnLoadAttributes (593ms)
-			ProcessInitializeOnLoadMethodAttributes (125ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (4.5 MB). Loaded Objects now: 7317.
-Memory consumption went from 146.1 MB to 141.6 MB.
-Total: 15.698100 ms (FindLiveObjects: 1.368900 ms CreateObjectMapping: 1.637900 ms MarkObjects: 8.420300 ms  DeleteObjects: 4.269100 ms)
+Unloading 6589 unused Assets / (5.8 MB). Loaded Objects now: 7455.
+Memory consumption went from 146.5 MB to 140.7 MB.
+Total: 18.093200 ms (FindLiveObjects: 1.732900 ms CreateObjectMapping: 1.467600 ms MarkObjects: 7.998000 ms  DeleteObjects: 6.891400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.203 seconds
-Refreshing native plugins compatible for Editor in 3.53 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.326 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.492 seconds
-Domain Reload Profiling: 2690ms
-	BeginReloadAssembly (315ms)
+- Finished resetting the current domain, in  1.247 seconds
+Domain Reload Profiling: 3569ms
+	BeginReloadAssembly (330ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (22ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (770ms)
-		LoadAssemblies (559ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (1865ms)
+		LoadAssemblies (1539ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (368ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (326ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1493ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1039ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (258ms)
-			ProcessInitializeOnLoadAttributes (630ms)
-			ProcessInitializeOnLoadMethodAttributes (125ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (4.7 MB). Loaded Objects now: 7319.
-Memory consumption went from 146.1 MB to 141.5 MB.
-Total: 16.719600 ms (FindLiveObjects: 1.143800 ms CreateObjectMapping: 1.885000 ms MarkObjects: 9.277100 ms  DeleteObjects: 4.394800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1046.295475 seconds.
-  path: Assets/Scripide/Controle.cs
-  artifactKey: Guid(27c417bc081c5d14b95bc3e2d8abe3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripide/Controle.cs using Guid(27c417bc081c5d14b95bc3e2d8abe3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c26aabe186987ee686686e14f1253f7') in 0.0062445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.102 seconds
-Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.271 seconds
-Domain Reload Profiling: 2368ms
-	BeginReloadAssembly (286ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (693ms)
-		LoadAssemblies (515ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (319ms)
-			TypeCache.Refresh (9ms)
+		AnalyzeDomain (475ms)
+			TypeCache.Refresh (14ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (290ms)
+			BuildScriptInfoCaches (418ms)
 			ResolveRequiredComponents (16ms)
-	FinalizeReload (1272ms)
+	FinalizeReload (1247ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (911ms)
+		SetupLoadedEditorAssemblies (932ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (237ms)
-			ProcessInitializeOnLoadAttributes (544ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (574ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
 			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (24ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6586 unused Assets / (4.2 MB). Loaded Objects now: 7321.
-Memory consumption went from 146.1 MB to 141.9 MB.
-Total: 10.693400 ms (FindLiveObjects: 0.896600 ms CreateObjectMapping: 1.124200 ms MarkObjects: 6.055000 ms  DeleteObjects: 2.616400 ms)
+Unloading 6589 unused Assets / (3.9 MB). Loaded Objects now: 7457.
+Memory consumption went from 146.5 MB to 142.6 MB.
+Total: 17.066100 ms (FindLiveObjects: 1.231100 ms CreateObjectMapping: 1.166600 ms MarkObjects: 9.875500 ms  DeleteObjects: 4.789700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.269 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.262 seconds
+Domain Reload Profiling: 2527ms
+	BeginReloadAssembly (330ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (804ms)
+		LoadAssemblies (603ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (317ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1262ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (885ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (212ms)
+			ProcessInitializeOnLoadAttributes (549ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6589 unused Assets / (4.6 MB). Loaded Objects now: 7459.
+Memory consumption went from 146.5 MB to 141.8 MB.
+Total: 20.036000 ms (FindLiveObjects: 2.224200 ms CreateObjectMapping: 1.677900 ms MarkObjects: 9.708700 ms  DeleteObjects: 6.423600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
